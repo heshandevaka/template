@@ -2,16 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <!-- replace WEBSITE with the address where this site is being hosted -->
    <url>
-       <loc>WEBSITE</loc>
+       <loc>https://heshandevaka.github.io/template/</loc>
    </url>
    <url>
-       <loc>WEBSITE/registration</loc>
+       <loc>https://heshandevaka.github.io/template//talks</loc>
    </url>
    <url>
-       <loc>WEBSITE/program</loc>
+       <loc>https://heshandevaka.github.io/template//program</loc>
    </url>
    <url>
-       <loc>WEBSITE/directions</loc>
+       <loc>https://heshandevaka.github.io/template//speakers</loc>
+   </url>
+   <url>
+       <loc>https://heshandevaka.github.io/template//committee</loc>
+   </url>
+   <url>
+       <loc>https://heshandevaka.github.io/template//papers</loc>
+   </url>
+   <url>
+       <loc>https://heshandevaka.github.io/template//location</loc>
+   </url>
+   <url>
+       <loc>https://heshandevaka.github.io/template//archive</loc>
    </url>
 </urlset> 
 
