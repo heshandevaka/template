@@ -1,282 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <title>
-    MLSys2022
-  </title>
-
-  <link rel="stylesheet" href="https://distributedml.org/assets/css/main.css" />
-  <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-173404465-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-173404465-1');
-  </script>
+    <base href=".">
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png"/>
+    <link rel="stylesheet" type="text/css" media="all" href="assets/main.css"/>
+    <meta name="description" content="Conference Template">
+    <meta name="resource-type" content="document">
+    <meta name="distribution" content="global">
+    <meta name="KeyWords" content="Conference">
+    <title>Conference Template</title>
 </head>
 
-<body class="pb-4">
-  <header>
-    <!-- navigation bar (web only): -->
-    <nav class="navbar navbar-expand-md navbar-light bg-light mb-3">
-  <div class="container">
+<body>
 
-    <a class="navbar-brand" href="/"> MLSys 2021</a>
-
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        
-          
-            <li class="nav-item ">
-              
-                <a class="nav-link" href="/program/">
-                  Program
-                </a>
-              
-            </li>
-          
-        
-          
-            <li class="nav-item ">
-              
-                <a class="nav-link" href="/talks/">
-                  Talks
-                </a>
-              
-            </li>
-          
-        
-          
-            <li class="nav-item ">
-              
-                <a class="nav-link" href="/speakers/">
-                  Speakers
-                </a>
-              
-            </li>
-          
-        
-          
-            <li class="nav-item ">
-              
-                <a class="nav-link" href="/committee/">
-                  Committee
-                </a>
-              
-            </li>
-          
-        
-          
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbar-dropdown4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Papers
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbar-dropdown4">
-                
-                  
-                    <a class="dropdown-item" href="/call-for-papers.html">
-                      CFP
-                    </a>
-                  
-                
-                  
-                    <a class="dropdown-item" href="/camera-ready-instructions.html">
-                      Camera-ready instructions
-                    </a>
-                  
-                
-                  
-                    <a class="dropdown-item" href="/video-presentation-instructions">
-                      Video recording instructions
-                    </a>
-                  
-                
-              </div>
-            </li>
-          
-        
-          
-            <li class="nav-item ">
-              
-                <a class="nav-link" href="/location/">
-                  Location
-                </a>
-              
-            </li>
-          
-        
-          
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbar-dropdown6" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Archive
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbar-dropdown6">
-                
-                  
-                    <a class="dropdown-item" href="/archive/2020">
-                        MLSys'22
-                    </a>
-                  
-                
-              </div>
-            </li>
-          
-        
-      </ul>
+    <div class="banner">
+        <img src="assets/banner.jpg" alt="Conference Template Banner">
+        <div class="top-left">
+            <span class="title1">Conference</span><span class="title2">Template</span> <span class="year">2525</span>
+        </div>
+        <div class="bottom-right">
+            June 31, 2525 <br> University Name, and City Maybe
+        </div>
     </div>
 
-    
-      <div class="navbar-brand navbar-logo mr-0 w-25 text-right overflow-hidden">
-        <a class="" href="">
-          
-              <img src="/assets/images/clean-logo-white-background-small.png" class="align-middle logo" alt="Distributed ML Workshop" />
-          
-        </a>
-        <a href="/">
-          
-            <img class="navbar-brand-hideable align-middle logo" src="/assets/images/acm_logo.png" alt="Distributed ML Workshop" />
-          
-        </a>
-      </div>
-    
+    <table class="navigation">
+        <tr>
+            <td class="navigation">
+                <a class="current" title="Conference Home Page" href=".">Home</a>
+            </td>
+            <td class="navigation">
+                <a title="Register for the Conference" href="registration">Registration</a>
+            </td>
+            <td class="navigation">
+                <a title="Conference Program" href="program">Program</a> 
+            </td>
+            <td class="navigation">
+                <a title="Directions to the Conference" href="directions">Directions</a>
+            </td>
+            <td class="navigation">
+                <a title="Conference Flyer" href="flyer">Flyer</a>
+            </td>
+        </tr>
+    </table>
 
-  </div>
-</nav>
+    <h2>What is This Website?</h2>
+    <p>
+        This website is a template that you could use for a (small) academic conference. 
+        It&rsquo;s got a page for registration, where you can embed a Google Form or some other way for participants to register.
+        It&rsquo;s got a program page to list the schedule for the conference.
+        It&rsquo;s got a directions page to add a bunch of instructions how to get to the conference.
+        It&rsquo;s got a page to put up the flyers and other promotional materials for folks to download.
+    </p>
+    <p>
+        You can use this template by cloning all the files from this
+        <a target="_blank" href="https://github.com/mikepierce/conference-website-template">GitHub repo here</a>.
+        This template was created from a website I made for 
+        <a target="_blank" href="http://math.ucr.edu/~mathconn/">MathConnections 2019</a>,
+        in case you want to see an example of this template being used in the wild.
+    </p>
+    <p>
+        This paragraph is just some filler text to give the homepage some volume:
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dignissim et est et euismod. Fusce et metus tempus, pellentesque ex at, convallis nulla. Ut fringilla commodo tincidunt. Fusce sed est eu massa placerat iaculis eu at mauris. Nullam ut mollis nisi, quis malesuada risus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam ipsum tortor, suscipit non tincidunt vel, bibendum in libero. Nulla facilisi. Pellentesque vitae neque metus. Cras quis est pharetra, vestibulum nisl et, viverra ipsum. Etiam porta dignissim purus, quis tempor metus volutpat eu. Praesent pulvinar libero eget purus tincidunt finibus.
+    </p>
 
-    
+    <h2>Organizers</h2>
+    <p>
+        Here&rsquo;s a good place to list the organizers and sponsors of the conference,
+        as well as list contact information for the organizers,
+        and show off the logos of the sponsors.
+        It looks like his conference was sponsored by kittens!
+    </p>
+    <table class="sponsors">
+        <tr>
+            <td class="sponsor">
+                <a href="http://www.eyebleach.me/">
+                    <img src="assets/kitten1.jpg" alt="First Sponsor Name">
+                </a>
+            </td>
+            <td class="sponsor">
+                <a href="http://www.eyebleach.me/">
+                    <img src="assets/kitten2.jpg" alt="Second Sponsor Name" style="width: 80%">
+                </a>
+            </td>
+            <td class="sponsor">
+                <a href="http://www.eyebleach.me/">
+                    <img src="assets/kitten3.jpg" alt="Third Sponsor Name">
+                </a>
+            </td>
+        </tr>
+    </table>
 
-  </header>
-  <main class="container">
+    <table class="footer">
+        <tr>
+            <td class="footer">Design by <a target="_blank" href="http://math.ucr.edu/~mpierce/">Mike Pierce</a></td> 
+            <td class="footer">&copy; Conference Organizers</td> 
+        </tr>
+    </table>
 
-    
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-  
-    
-    
-
-    
-      <div class="alert alert-info alert-dismissible fade show" role="alert">
-        
-          <h4 class="alert-heading">Videos & Recordings</h4>
-        
-
-        <p>All videos from the workshop have been uploaded <a href="/program/">here</a>.</p>
-
-
-        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-    
-    
-  
-
-
-
-
-  <div class="jumbotron">
-    <h1 class="display-3" style="text-align: center;">
-      
-        <img src="/assets/images/santaclara.png" class="w-5 d-none d-md-inline-block" alt="MLSys 2021" /> <!--75-->
-        <img src="/assets/images/santaclara.png" class="w-10 d-md-none" alt="MLSys 2021" /> <!--100-->
-      
-    </h1>
-    
-      <p class="lead" style="text-align: center;">
-        <p class="lead">Workshop on "Breaking Community Barriers in
-            Federated Learning - Algorithms, Systems and Co-designs"</p>
-
-      </p>
-    
-
-    <hr class="my-4">
-
-    <p>Machine Learning and Deep Neural Networks have been gaining more and more traction in a range of tasks across modalities, such as image recognition, text mining as well as ASR. Commonly represented as execution graphs, they can be found deployed in a range of devices, from large servers in data centers to small embedded devices, offering them intelligent capabilities. A common denominator between these diverse devices is that they are connected, thus enabling them to collaboratively work towards the learning or inference task.</p>
-
-<p>Be it in a distributed environment, such as a data center, or a highly heterogeneous embedded deployment in the wild, distributed ML poses various challenges from a systems, interconnection and ML theoretical perspective. 
-In this workshop, we want to focus on the network-side of such distributed setups, the unique challenges it presents and novel solutions for optimising distributed learning tasks. More specifically, we welcome papers in the following areas:</p>
-
-<ul>
-  <li>Distributed inference and offloading</li>
-  <li>DNN computation sharing in local networks</li>
-  <li>Distributed and collaborative Learning</li>
-  <li>Federated Learning</li>
-  <li>Distributed and asynchronous training algorithms</li>
-  <li>Channel optimisations for distributed ML</li>
-  <li>DNN based compression schemes</li>
-  <li>Fairness and biases in federated learning</li>
-  <li>Secure and privacy-preserving distributed learning</li>
-  <li>Interpretability in distributed learning</li>
-  <li>Novel ML applications in IoT, MEC or NFV</li>
-  <li>Measurements and experience from large-scale distributed ML systems</li>
-</ul>
-
-<p>We hope that DistributedML will serve as a forum for researchers across different disciplines to bring forward and discuss challenging topics, share new ideas and exchange experience in the deployment of such systems, both from a theoretical and experimental perspective.</p>
-
-<p>The workshop is co-located with <a href="https://conferences2.sigcomm.org/co-next/2021"><strong>CoNEXT</strong></a> will be <strong>virtually</strong> held in the beautiful Bavarian city of Munich. All accepted paper will also <strong>be included</strong> in the conference proceedings and be made available in the ACM Digital Library.</p>
-
-<p>The workshop will take place on the <strong>7th of December 2021</strong>.</p>
-
-<p>Deadline for paper submissions: <s>17th September 2021</s> <strong>24th September 2021</strong></p>
-
-
-
-    
-      <p class="lead d-print-none">
-      
-        
-          <a class="btn btn-outline-primary btn-lg mt-2" href="/program/" role="button">
-            Program
-          </a>
-        
-      
-        
-          <a class="btn btn-outline-primary btn-lg mt-2" href="/assets/images/DistributedML2021_poster.png" role="button">
-            Poster
-          </a>
-        
-      
-      </p>
-    
-
-  </div>
-
-
-  </main>
-  <footer class="container"></footer>
-
-  <script src="/assets/js/main.js"></script>
-
-</body>
+    </body>
 </html>
 
